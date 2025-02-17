@@ -1,0 +1,45 @@
+.background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #0000003f;
+    height: 100%;
+    width: 100%;
+    transition: .30s all;
+}
+
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 53%;
+    color: #fff;
+    background-color: #fff;
+    transition: .30s all;
+    transform: translate(-50%, -50%);
+    border-radius: .4rem;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    padding: 20px 30px 30px 30px ;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 20px 75px rgba(0, 0, 0, 0.13);
+    color: #666;
+    
+}
+
+
+.alert_btns > button {
+    outline: none;
+    background: #0D6EFD;
+    border: none;
+    display: inline-block;
+    padding: 6px 18px;
+    color: #eee;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }

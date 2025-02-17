@@ -1,0 +1,11 @@
+
+
+
+
+.img{
+    background-image: url('../../assets/fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
